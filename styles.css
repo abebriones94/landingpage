@@ -55,11 +55,12 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900;
     color: aliceblue;
     padding: 0;
-    margin-right: 200px;
+    margin-right: 80px;
+    font-family: fantasy;
 }
 
 
@@ -171,57 +172,70 @@ h2{
 }
 
 .InnerBox {
-    display: flex;
+    
     background-color: #3882f6;
-    margin: 30px;
-    border-radius: 5px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center; 
+    border-radius: 10px;
+    padding: 50px;
     margin-right: 300px;
     margin-left: 300px;
-    display: grid
+
 }
 
-.FirstLine {
+h3 {
 
-    font-size: 15px; 
-    font-weight: 600;
-    padding: 0;
-    margin-right: 200px;
-    margin-left: 50px;
-    color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 340px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    margin-right: 20px;
 }
 
-.SecondLine {
+.InnerInnerBox{
+    color: white;
+    padding: 0px;
+    margin: 0;
+    font-size: 10px;
+    padding-right: 30px;
+    
 
-    font-size: 9px;
-    grid-column: 1;
-    font-size: 12px; 
-    font-weight: 600;
-    width: 350px;
-    color: whitesmoke;
-    font-weight: 300;
-    padding-left: 50px;
-    margin-top: 3px;
-   
+
+    
 }
 
 .SignUp2 {
-   
-    color: white;
+    
     background-color: #3882f6;
-    border-color:white;
-    align-items: center;
-    margin: auto;
-    margin-left: 600px;
-    position: relative;
-    bottom: 50px;
+    color: white;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-color: white;
     
     
-
 }
+
+/*-----------------LAST CONTAINER OF WEBSTIE */
  
+.LastContainer {
+    background-color: #1F2937;
+    
+}
+
+.Text{
+
+    color: whitesmoke;
+   
+    
+}
+
+.CopyrightText {
+    text-align: center;
+    font-size: 10px;
+    
+}
 
 
 
