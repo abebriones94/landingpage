@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ContainerOne {
+    background-color: rgb(31, 30, 40);
+
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header-logo {
+    height: 70px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin-left: 500px;
+
+    padding: 0;
+    gap: 15px;
+    
+}
+
+.header-links a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px; 
+}
+
+.Briones-Text-Card {
+    align-self: center;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: aliceblue;
+    padding: 0;
+    margin-right: 200px;
+}
+
+
+
+.hero-text {
+    color: white;
+    font-size: 15px;
+}
+
+.SignUp {
+    background-color: rgb(28, 58, 58);
+    color: whitesmoke;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.hero-image {
+    width:130%;
+    height:100%;
+    margin-left: 90px;
+    border-radius: 10px;
+    margin-bottom: -40px;
+
+}
+
+/* SECOND CONTAINER OF WEBSITE--------------------------------- */
+
+
+.SecondContainer {
+    margin: 100px; 
+
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -30px;
+    font-family: Trattatello, fantasy; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  
+}
+
+.Card-Image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882f6
+
+}
+
+.card-subtext {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* THIRD CONTAINER OF THE WEBSITE ----------------------- */
+
+
+.ThirdContainer {
+    background-color: #E5E7EB;
+}
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+.QuoteText {
+
+    font-size: 23px;
+    font-style: italic;
+    font-family: fantasy; 
+    width: 500px;
+    color: #1F2937;
+    font-weight: 300;
+    align-self: center;
+
+}
+
+.QuoteAuthor {
+
+    font-size: 13px;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
